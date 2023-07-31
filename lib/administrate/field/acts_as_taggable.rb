@@ -35,7 +35,10 @@ module Administrate
       end
 
       def delimitted
-        tags.join(', ').to_s
+        self.tags.join(', ').to_s
+
+
+        
       end
 
       def truncate
