@@ -30,6 +30,10 @@ module Administrate
         data
       end
 
+      def plop
+        puts "plop"
+      end
+
       def name
         context.to_s
       end
