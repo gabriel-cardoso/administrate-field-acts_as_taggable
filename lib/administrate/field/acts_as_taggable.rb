@@ -31,7 +31,10 @@ module Administrate
       end
 
       def plop
+        
            puts "plop"
+
+        
       end
 
       def name
